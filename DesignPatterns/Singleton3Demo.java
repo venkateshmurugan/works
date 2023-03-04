@@ -1,6 +1,5 @@
 public enum Singleton3Demo{
     SINGLETON_INSTANCE;
-    
     int testVar;
 
     public void setTestVar(int testVar){
@@ -13,6 +12,5 @@ public enum Singleton3Demo{
 
     public void display(){
         System.out.println("Singleton3 Instance Display Test Var: " + testVar);
-
     }
 }
